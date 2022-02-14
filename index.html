@@ -5,19 +5,61 @@
     <meta charset="utf-8">
     <meta name="description" content="Virtual Labaratory For Engineering Science and Technology Institutes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
+<!-- div for top black title bar  -->
 <div class="topTitleBar">
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#"><i class="fa fa-home"></i>&nbsp;&nbsp;Home</a>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" class="glowBg"><span class="material-icons" style="font-size:30px; vertical-align:bottom;">house</span>&nbsp;&nbsp;&nbsp;Home</a>
+    <a href="#" class="glowBg"><span class="material-icons" style="font-size:30px; vertical-align:bottom;">lock</span>&nbsp;&nbsp;&nbsp;Login</a>
+  </div>
+  <span style="font-size:30px; cursor:pointer; color: white;" onclick="openNav()">&nbsp;&#9776;</span>
+  <div class="blockUserName">
+    <a href="#">user_name</a>
+  </div>
+  <div class="userPhoto">
+    <i class="material-icons" style="padding:3.5px; font-size:30px;">person</i>
+  </div>
 </div>
+<!-- div for top black title bar ends here -->
 
-<!-- Use any element to open the sidenav -->
-<span style="font-size:30px; cursor:pointer; color: white;" onclick="openNav()">&nbsp;&#9776;</span>
+<!-- div for image slider -->
+<div class="imageSlider">
+
 </div>
+<!-- div for imaig slider ends here -->
+
+<!-- div for mid bar -->
+<div class="midBar">
+<p class="midText">Welcome to the Virtual Laboratory</p>
+</div>
+<!-- div for mid bar ends here -->
+
+<!-- div for experiments -->
+<div class="experiments">
+</div>
+<!-- div for experiments ends here -->
+
+<!-- div for end bar -->
+<div class="endBar">
+  <div class="cred">
+    <span style="color: white;">
+    <u>Credits:</u>
+    <br>xyz names
+    </span>
+  </div>
+  <div class="coffee">
+    <a href="#">
+    <button><span class="material-icons" style="vertical-align:bottom;">coffee</span>&nbsp;Buy us a Coffee&nbsp;</button>
+    </a>
+  </div>
+
+</div>
+<!-- div for end bar here -->
+
 <script src="home.js"></script>
 <body>
 </html>
