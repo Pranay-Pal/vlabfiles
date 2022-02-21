@@ -114,6 +114,8 @@ p{
 }
 #lm{
   margin-left: 25px;
+   background-color:#575351 ;
+  color: white;
 }
 #rm{
   margin-right: 25px;
@@ -147,9 +149,9 @@ li a {
   margin: -8px;
   height: 100px;
   width: 100%;
-  /* margin-top: 20px; */
+  margin-top: 20px;
   position: absolute;
-  margin-top: 1%;
+/*   margin-top: 1%; */
   
 }
 
